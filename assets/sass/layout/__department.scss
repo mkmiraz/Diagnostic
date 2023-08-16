@@ -1,0 +1,108 @@
+#department {
+    padding: 10rem 0;
+    background-color: $sub_body;
+    .department_box{
+        width: 70%;
+        height: auto;
+        margin: auto;
+        .custom_btn{
+            margin-top: 10rem;
+            margin-left: 40%;
+        }
+        .item_box{
+            width: 100%;
+            margin: 5rem 0;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 2rem;
+             a{
+                width: 31%;
+                .item_area{
+                    height: fit-content;
+                    display: flex;
+                    gap: 1.5rem;
+                    .item_img{
+    
+                        img {
+                            height: 5rem;
+                        }
+                    }
+                    .tem_text{
+                        margin-bottom: 4rem;
+                        h2{
+                            font-size: 1.8rem;
+                            font-weight: bolder;
+                            margin-bottom: 1rem;
+                            color: $color_1;
+                        }
+                        p {
+                            font-size: 1.4rem;
+                            line-height: 2.5rem;
+                            color: #1a1a1ad2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// START A PAGE DEPARTMENT CSS
+
+.department_page_box{
+    padding: 5rem 0;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    h2 {
+        font-size: 3rem;
+    }
+    p{
+        margin-top: .5rem;
+        font-size: 1.8rem;
+        line-height: 3rem;
+        font-weight: 600;
+        color: rgba(32, 29, 29, 0.568);
+    }
+    .page_item_box {
+        .item_area{
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 3rem;
+            margin-bottom: 2rem;
+            height: fit-content;
+            margin-top: 4rem;
+            margin-top: 4rem;
+            display: flex;
+            gap: 1.5rem;
+            &:last-child{
+                border: none;
+                margin-top: 2rem;
+            }
+            .item_img{
+
+                img {
+                    height: 4rem;
+                }
+            }
+            .tem_text{
+                .custom_btn{
+                    margin-top: 3rem;
+                    font-size: 1.2rem;
+                }
+                h2{
+                    font-size: 2rem;
+                    font-weight: bolder;
+                    margin-bottom: 1rem;
+                    color: $color_1;
+                }
+                p {
+                    font-size: 1.5rem;
+                    line-height: 2.5rem;
+                    font-weight: bold; 
+                    color: #3a3939a6;
+                }
+            }
+        }
+    }
+}

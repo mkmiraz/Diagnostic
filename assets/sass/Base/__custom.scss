@@ -1,0 +1,95 @@
+.custom_btn{
+    padding: 1.2rem 2.5rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    background-color: $color_1;
+    border: 1px solid $color_1;
+    color: $color_2;
+    cursor: pointer;
+    transition: .15s;
+    &:hover {
+        background-color: #0a4e75;
+    }
+}
+.custom_btn_sm{
+    padding: 1rem 1.8rem;
+    font-size: 1.2rem;
+    background-color: $color_1;
+    border: 1px solid $color_1;
+    color: $color_2;
+    cursor: pointer;
+    transition: .15s;
+    &:hover {
+        background-color: #0a4e75;
+    }
+}
+
+.custom_title{
+    padding-bottom: 2rem;
+    h2{
+        font-size: 3.5rem;
+        color: $color_1;
+    }
+    h6{
+        font-size: 1.6rem;
+        line-height: 3rem;
+        font-weight: 400;
+        color: #0a4e75c0;
+        font-family: Roboto;
+    }
+}
+
+
+// START A CUSTOM HEADER CSS HERE //
+
+.custom_header{
+    margin: auto;
+    width: 100%;
+    padding: 5rem 0;
+    background-color: $color_1;
+    .header_area{
+        width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .header_title{
+
+            h2{
+                font-size: 3rem;
+                font-family: Roboto;
+                font-weight: 600;
+                color: rgb(243, 240, 240);
+            }
+            p{
+                font-size: 1.6rem;
+                font-weight: 500;
+                color: rgba(255, 255, 255, 0.76);
+                line-height: 2.5rem;
+            }
+        }
+
+       .header_menu{
+            display: flex;
+            gap: 1rem;
+            li{
+                font-size: 1.2rem;
+                color: rgba(228, 228, 228, 0.788);
+                font-weight: bold;
+                letter-spacing: .1rem;
+                a{
+                    color: $color_2;
+                    transition: .3s;
+                    &:hover{
+                        text-decoration: underline;
+                        text-underline-offset: .4rem;
+                    }
+                }
+            }
+       } 
+    }
+}
+
+.mt-2 {
+    margin-top: 1.5rem !important;
+}

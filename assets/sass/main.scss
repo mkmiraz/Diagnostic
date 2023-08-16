@@ -1,0 +1,21 @@
+@import './utils/__variables';
+@import './Base/_typogarphy';
+@import './Base/_reset';
+@import './Base/_custom';
+
+
+@import './layout/_header';
+@import './layout/_navigation';
+@import './layout/__benar';
+@import './layout/_about';
+@import './layout/_department';
+@import './layout/_doctors';
+@import './layout/_resources';
+@import './layout/_footer';
+// page css link
+@import './pages/_about';
+@import './pages/_contact';
+@import './pages/_appointment';
+// RESPONSIVE styles link
+@import './themes/_responsive';
+

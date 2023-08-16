@@ -1,0 +1,48 @@
+.top_header{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: $sub_body;
+    transition: .5s;
+    .social_link{
+        flex: 1;
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 1rem;
+            li {
+                padding: .9rem .5rem;
+                border-left: 1px solid #ddd;
+                i{
+                    font-size: 1rem;
+                    padding: .5rem;
+                    color: $color_1;
+                }
+                a{
+                    font-size: 1.2rem;
+                    color: $color_3;
+                }
+            }
+        }
+    }
+
+    .lear{
+        padding: 1.1rem .5rem;
+        background: $color_1;
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        gap: .6rem;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 27% 100%);
+        button{
+            border: 1px solid #ccc;
+            background-color: $sub_body;
+            padding: .1rem .2rem;
+            cursor: pointer;
+            color: #7f9de9;
+            font-size: 1.2rem;
+        }
+    }
+}

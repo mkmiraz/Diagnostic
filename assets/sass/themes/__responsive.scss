@@ -1,0 +1,555 @@
+@media only screen and (max-width:1440px) {
+    // custom btn here
+    .custom_btn{
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+    }
+    // Custom Title here
+    .custom_title{
+
+        h2{
+            font-size: 2.5rem;
+        }
+        h6{
+            font-size: 1.6rem;
+        }
+    }
+
+    //  CUstom header Here 
+    .custom_header{
+        padding: 4rem 0;
+        .header_area{
+            width: 85%;
+        }
+    }
+    // SSTART A NAVIGATIONBAR HERE
+    .menu_bar{
+
+        .logo{
+            width: 18%;
+        }
+        .nav_area{
+            width: 75%;
+            justify-content: flex-end;
+        }
+    }
+
+    // BENAR DOCTOR TIME HERE
+    .time_limit{
+        width: 20rem !important;
+        height: 5rem !important;
+        .limit_icon{
+            width: 3rem !important;
+            height: 3rem !important;
+            i{
+                font-size: 1.2rem !important;
+            }
+        }
+        .times{
+            h4{
+                font-size: 1.2rem !important;
+            }
+            .limit{
+                width: 13rem !important;
+                p{
+                    font-size: 1.1rem !important;;
+                }
+            }
+        }
+    }
+
+    // about section  Here
+    #about {
+
+        .about_box{
+            width: 85%;
+            .about_text{
+
+                p{
+                    font-size: 1.4rem;
+                    line-height: 2.5rem;
+                }
+            }
+        }
+    }
+    // About Page css here
+    .about{
+        width: 85%;
+    }
+
+    //  DEPARTMENT SECTION START HERE
+    #department{
+        .department_box {
+            width: 85%;
+            .item_box{
+                a{
+                    .item_area{
+                        .item_img{
+                            img{
+                                height: 3.5rem;
+                            }
+                        }
+                        .tem_text{
+                            h2{
+                                font-size: 1.8rem;
+                            }
+                            p{
+                                font-size: 1.3rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Doctor Section here
+    #doctor{
+        padding: 0;
+        .doctor_box{
+            width: 85%;
+        }
+    }
+    .doctor_items{
+        width: 28rem;
+    }
+
+    .owl-nav.disabled{
+        display: block !important;
+        .owl-prev{
+            span{
+                position: absolute;
+                padding: 0rem 1rem;
+                background: rgb(241, 240, 240);
+                color: #979797;
+                font-size: 3.5rem;
+                top: -5rem;
+                right: 5rem;
+            }
+        }
+    }
+    
+    .owl-nav{
+        .owl-next{
+            span{
+                position: absolute;
+                padding: 0rem 1rem;
+                background: rgb(241, 240, 240);
+                color: #979797;
+                font-size: 3.5rem;
+                top: -5rem;
+                right: 1rem;
+            }
+        }
+    }
+    // Doctor Page here
+    .doctor_page_box {
+        width: 85%;
+    }
+
+
+
+// RESOUCES SECTION    START HERE
+    #resources {
+
+        .custom_title{
+            padding-left: 0rem;
+        }
+        .resources_box{
+            width: 85%;
+            padding: 0rem;
+            .resources_area{
+                flex-wrap: wrap;
+            }
+            .resources_items{
+                width: 35.5rem;
+            }
+        }
+    }
+    // page Resource here
+    .page_resources_box{
+        width: 60%;
+    }
+
+    // Contact here 
+    .contact_box{
+        width: 85%;
+        .form_box{
+
+            .form_img{
+                height: 42rem;
+            }
+        }
+    }
+
+    // APPOINTMENTS
+    .appointment_box{
+        width: 85%;
+    }
+
+    // Footer here
+    #footer{
+        .footer_box{
+            width: 85%;
+        }
+    } 
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+    // top header here
+    .top_header{
+        .lear{
+            width: 15rem;
+        }
+    }
+    // START A NAVIGATIONBAR HERE
+    .menu_bar{
+        position: relative;
+        justify-content: space-between;
+        padding: 0 1.5rem;
+        .logo{
+            img{
+                height: 4rem;
+            }
+        }
+        .bars{
+            display: block;
+            // margin-right: 5rem;
+            .fa-xmark{
+                display: none;
+            }
+        }
+        .nav_area{
+            width: 100%;
+            position: absolute;
+            background: $color_2;
+            display: none;
+            bottom: -25rem;
+            right: 0;
+            flex-direction: column;
+            padding: 2rem;
+            box-shadow: 0px 1px 1px #f0f0f0;
+            li{
+                width: 100%;
+                a{
+                    display: block;
+                    margin-top: .2rem;
+                    background-color: $color_1;
+                    color: $color_2;
+                    padding-left: 2rem;
+                }
+            }
+        }
+    }
+
+    // Start A About Section Here
+    #about{
+        .about_box{
+            width: 90%;
+            align-items: center;
+            gap: 3rem;
+            .about_text{
+                p {
+                    column-gap: 1rem;
+                }
+            }
+            .about_img{
+                height: 20rem;
+            }
+        }
+    }
+    // About Page Here
+    .about{
+        width: 90%;
+        flex-direction: column;
+        .about_text_area{
+            width: 100%;
+        }
+        .about_slider{
+            width: 100%;
+            height: 35rem;
+            img {
+                width: 100% !important;
+                height: 35rem !important;
+            }
+        }
+    }
+    .accordion_box{
+        width: 90%;
+    }
+
+    // Deparment Section here
+    #department {
+        .department_box{
+            width: 90%;
+            .item_box{
+                a{
+                    width: 48%;
+                }
+            }
+        }
+    }
+    // DEPARTMENT Page here
+    .department_page_box{
+        width: 85%;
+    }
+
+
+    // Resource Page here
+    .page_resources_box{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    // SATART A About Section here
+    #about{
+        .about_box{
+            width: 90%;
+            flex-direction: column;
+            justify-content: left !important;
+        .about_text{
+                width: 100%;
+                p{
+                    column-count: 1;
+                }
+            }
+           .about_img{
+                    width: 60%;
+                    height: 33rem;
+           } 
+        }
+    }
+
+    // Department section here
+    #department{ 
+        .department_box{
+            .item_box{
+                gap: 4rem;
+                a{
+                    width: 100%;
+                    .item_area{
+                        .tem_text{
+                            p{
+                                font-size: 1.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // Doctor box here
+    .page_doctor{
+        justify-content: center;
+    }
+
+    // Resources section here
+   
+    #resources{
+
+        .resources_box{
+            .resources_area{
+                .resources_items{
+                    width: 30rem;
+                }
+            }
+        }
+    }
+    // Resources page here
+    .page_resources_box{
+        .page_resources_area{
+            .resources_items{
+                img{
+                    width: 20rem;
+                    height: 15rem;
+                }
+            }
+        }
+    }
+
+    // Contact Page here
+    .contact_box{
+        padding: 3rem 0;
+        .contact_link{
+            padding: 0rem 0rem 8rem 0rem;
+            
+            justify-content: space-between !important;
+            flex-wrap: wrap;
+        }
+        .form_box{
+            flex-direction: column;
+            .form_img{
+                width: 100%;
+            }
+            .form_area{
+                width: 100%;
+            }
+        }
+    }
+
+    // Footer styles
+    #footer{
+
+        .footer_box{
+            width: 98%;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            padding: 3rem;
+            gap: 2rem;
+            .location{
+                width: 23rem;
+                p{
+                    font-size: 1.5rem;
+                }
+            }
+            .hours{
+                width: 23rem;
+                p{
+                    font-size: 1.4rem;
+                }
+            }
+            .emergency{
+                width: 22rem;
+            }
+            .social_icon{
+                text-align: left;
+                width: 22rem;
+            }
+        }
+    }
+    
+}
+  
+@media only screen and (max-width: 680px) {
+        // bennar here
+        .benar_contant{
+            .benar_text_area{
+                width: 90%;
+            }
+        }
+
+    .top_header{
+     display: none;
+    }
+}
+@media only screen and (max-width: 425px) {
+    // Custom Header Style
+    .custom_header{
+
+        .header_area{
+            width: 90%;
+            flex-wrap: wrap;
+            gap: 4rem;
+        }
+    }
+
+    // Benar Hare
+    .benar_contant{
+
+        .benar_text_area{
+            left: 4%;
+            h1{
+                font-size: 4.2rem;
+            }
+            h2{
+                font-size: 1.8rem;
+            }
+            p{
+                line-height: 3rem;
+            }
+        }
+    }
+
+    // About Section here
+    #about {
+        width: 100%;
+        .about_box{
+            .about_img{
+                width: 100%;
+            }
+        }
+    }
+    // About Page here
+    .about{
+
+        .about_slider{
+            height: 20rem;
+            .item{
+                img {
+                    height: 20rem !important; 
+                }
+            }
+        }
+    }
+
+    // Doctor page here
+    .doctor_page_box{
+        .custom_title{
+            h6{
+                width: 100%;
+            }
+        }
+        .doctor_menu{
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+    }
+    // Appointment  here
+    .appointment_box{
+        width: 100%;
+        .datails_info{
+            flex-direction: column;
+            .info_box{
+                width: 80%;
+            }
+        }
+        .apply_form{
+            padding: 4rem 1rem;
+            form{
+
+                .form_group{
+                    justify-content: center;
+                    gap: 1rem;
+                }
+            }
+        }
+    }
+
+    // Resources Page here
+    .page_resources_box{
+        
+        .page_resources_area{
+            .resources_items{
+                flex-direction: column;
+                img{
+                    width: 100%;
+                    height: 25rem;
+                }
+            }
+        }
+    }
+//    COntact page here
+    .contact_box{
+        .contact_link{
+            gap: 3rem;
+        }
+        .form_box{
+            .form_img{
+                width: 100%;
+                height: 25rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    
+}
+
+@media only screen and (max-width: 320px) {
+    
+}

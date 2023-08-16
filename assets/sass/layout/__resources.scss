@@ -1,0 +1,93 @@
+#resources {
+    padding: 10rem 0;
+    background-color: $sub_body;
+    .custom_title{
+        text-align: justify;
+        padding-left: 6rem;
+    }
+    .resources_box{
+        width: 70%;
+        margin: auto;
+        padding: 2rem;
+        text-align: center;
+        .resources_area{
+            padding-bottom: 10rem;
+            display: flex;
+            justify-content: center;
+            gap: 4rem;
+        }
+        .resources_items{
+            width: 38rem;
+            height: fit-content;
+            text-align: justify;
+            background-color: $color_2;
+            transition: .1s linear;
+            &:hover{
+                box-shadow: 0px 0px 5px #cccccc6e;
+            }
+            img{
+                width: 100%;
+                height: 20rem;
+                border-bottom: 1px solid #0a4e7552;
+            }
+            .items_text{
+                padding: 1.5rem;
+                h2{
+                    font-size: 1.7rem;
+                    color: $color_1;
+                }
+                p{
+                    font-size: 1.3rem;
+                    line-height: 2rem;
+                    margin-top: 1.5rem;
+                    color: #3a3939e5;
+                }
+            }
+        }
+    }
+}
+
+// START A PAGES CSS HERE
+
+.page_resources_box{
+    width: 50%;
+    margin: auto;
+    padding: 4rem 0;
+    .custom_title{
+        h6{
+            line-height: 3rem;
+            margin: 1rem auto;
+        }
+        p{
+            font-size: 1.5rem;
+            font-family: Roboto-Bold;
+            line-height: 3rem;
+            color: #6d6d6da1;
+        }
+    }
+    .page_resources_area{
+        .resources_items{
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 2rem;
+            margin-top: 4rem;
+            img{
+                width: 35rem;
+                height: 22rem;
+            }
+            .items_text{
+                h2{
+                    font-size: 2rem;
+                    color: $color_1;
+                }
+                p{
+                    font-size: 1.5rem;
+                    color: #1b1b1be8;
+                    line-height: 2.5rem;
+                    margin: 2rem 0;
+                }
+            }
+        }
+    }
+}

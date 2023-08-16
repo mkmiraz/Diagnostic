@@ -1,0 +1,117 @@
+.about{
+    width: 70%;
+    margin: 5rem auto;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: space-between;
+    .about_text_area{
+        width: 60%;
+        h2{
+            font-size: 3rem;
+        }
+        p{
+            font-size: 1.5rem;
+            font-weight: 600;
+            text-align: justify;
+            line-height: 2.5rem;
+            margin-top: 2rem;
+            color: #3d3c3cab;
+        }
+        .sub_pera{
+            font-size: 2rem;
+            line-height: 3rem;
+            color: rgba(32, 29, 29, 0.568);
+            font-weight: 600;
+        }
+    }
+    .about_slider{
+        margin-top: 6rem;
+        width: 42rem;
+        height: 30rem;
+        .disabled{
+            display: none !important;
+        }
+        .item{
+            img{
+                width: 42rem;
+                height: 30rem;
+            }
+        }
+    }
+}
+
+// TOGGLE STAST HERE
+
+.accordion_box{
+    width: 70%;
+    margin: 5rem auto;
+    padding: 2rem 0;
+    h2{
+        font-size: 2.5rem;
+        color: $color_3;
+        margin-bottom: 1rem;
+    }
+    p {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #302f2fb9;
+        line-height: 2.5rem;
+    }
+
+    .accordion_area{
+        width: 90%;
+        .item_box{
+            margin-top: 3rem;
+            .item_area{
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                cursor: pointer;
+                .icon{
+                    width: 3rem;
+                    height: 3rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: $color_1;
+                    i{
+                        color: $color_2;
+                        font-size: 1.4rem;
+                    }
+                    .fa-minus{
+                        display: none;
+                    }
+                    .fa-plus{
+                        display: block;
+                    }
+                }
+                .title{
+                    h6 {
+                        font-size: 1.8rem;
+                        color: rgb(61, 56, 56);
+                    }
+                }
+            }
+            .item_area.active {
+                .fa-minus{
+                    display: block;
+                }
+                .fa-plus{
+                    display: none;
+                }
+            }
+            .text{
+                text-align: justify;
+                padding: 2rem;
+                margin-left: 3rem;
+                margin-top: .5rem;
+                display: none;
+                p{
+                    font-size: 1.4rem;
+                    color: $color_3;
+                    line-height: 2.5rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,82 @@
+#footer{
+    padding-top: 5rem;
+    background: #34383d;
+    .footer_box{
+        width: 70%;
+        margin: auto;
+        padding: 3rem;
+        display: flex;
+        justify-content: space-around;
+        .location{
+            p{
+                font-size: 1.3rem;
+                line-height: 3rem;
+                color: #95989c;
+            }
+        }
+        .hours{
+            p{
+                font-size: 1.3rem;
+                line-height: 3rem;
+                color: #95989c;
+                span{
+                    color: $color_2;
+                }
+            }
+        }
+        .emergency{
+
+            p{
+                color: #95989c;
+                margin-top: 1rem;
+                font-size: 3rem;
+                font-weight: bolder;
+            }
+        }
+        .social_icon{
+            text-align: center;
+            button {
+                margin-top: 2rem;
+                margin-right: .5rem;
+                padding: .5rem;
+                background-color: rgb(231, 231, 231);
+                border: 1px solid $color_3;
+                cursor: pointer;
+                font-size: 1.6rem;
+                color: $color_3;
+                transition: .3s;
+                &:hover {
+                    background-color: $color_1;
+                    color: $color_2;
+                    border: 1px solid $color_1;
+                }
+            }
+        }
+    }
+
+    .copy_right{
+        height: 6rem;
+        border-top: 1px solid #95989c65;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p {
+            font-size: 1.2rem;
+            color: #95989c;
+        }
+        a{
+            color: #95989c;
+        }
+    }
+}
+
+
+/** Custom FOOTER TITLE HERE **/ 
+
+.footer_title{
+    padding-bottom: 1rem;
+    h2{
+        font-size: 2rem;
+        color: $color_2;
+    }
+}
